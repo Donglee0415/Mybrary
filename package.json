@@ -4,7 +4,7 @@
   "description": "[![Issues](https://img.shields.io/github/issues/donglee0415/Mybrary)](https://github.com/donglee0415/Mybrary/issues) [![Issues](https://img.shields.io/github/contributors/donglee0415/Mybrary)](https://github.com/donglee0415/Mybrary/graphs/contributors)  ## Description The Book search engine uses the MERN stack and with a React front end, MongoDB database, and Node js & Express js server. It's set up to allow users to save book searches to their profile and view the books and their details. The application is built using Google Books API so that users can click a link that takes them to google books. The search engine is built with GraphQL API and Apollo Server.",
   "main": "server/server.js",
   "engines": {
-    "node": "16.x"
+    "node": "16np.x"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.15.0",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
@@ -30,5 +31,4 @@
     "url": "https://github.com/Donglee0415/Mybrary/issues"
   },
   "homepage": "https://github.com/Donglee0415/Mybrary#readme"
-  
 }
